@@ -1,0 +1,100 @@
+body{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gainsboro;
+}
+.input-section{
+  text-align: center;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+
+}
+
+.to-do-list{
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+h1{
+  font-size: 4rem;
+}
+button{
+  font-size:1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color:rgb(255, 255, 255);
+  margin:10px;
+  border-radius: 7px;
+  border:none;
+  cursor:pointer;
+  transition: background-color 0.5s ease;
+
+}
+.add-btn{
+  font-size: 1.8rem;
+  margin-left: 10px;
+  background-color: rgb(35, 193, 35)
+}
+.add-btn:hover{
+  background-color: rgb(21, 84, 21)
+}
+.dlt-btn{
+  background-color: rgb(222, 29, 29)
+}
+.dlt-btn:hover{
+  background-color:  rgb(130, 17, 17)
+}
+.move-btn{
+  background-color: rgb(70, 136, 216)
+}
+.move-btn:hover{
+  background-color:  rgb(24, 107, 174)
+}
+input{
+  font-size:1.6rem;
+  padding:10px;
+  border:2px solid black;
+  border-radius: 5px;
+  color:gray;
+}
+ol{
+  padding: 0px;
+}
+li{
+  font-size:1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  padding: 10px;
+  background-color: hsl(0, 0, 97);
+  margin-bottom:10px;
+  border:none;
+  border-bottom:1px solid #ddd;
+}
+.btn-grp{
+  display: flex;
+  gap: 10px;
+}
+.display{
+  font-size:4rem;
+  border: 1px solid black;
+  margin:10px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*
+
+button{
+  font-family: Arial;
+  box-shadow: 5px,5px,5px,5px;
+  align-items: center;
+  cursor: pointer;
+  padding:10px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+*/
